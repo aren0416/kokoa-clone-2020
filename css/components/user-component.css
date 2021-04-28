@@ -52,3 +52,45 @@
   margin-bottom: 10px;
   display: block;
 }
+
+.open-post {
+  display: flex;
+}
+
+.open-post__title {
+  font-weight: 600;
+  margin-bottom: 7px;
+}
+
+.open-post__hashtags {
+  text-transform: uppercase;
+  opacity: 0.6;
+}
+
+.open-post__members {
+  display: flex;
+  align-items: center;
+}
+
+.open-post__members img {
+  width: 15px;
+  height: 15px;
+  margin-right: 5px;
+  border-radius: 50%;
+}
+
+.open-post__member-count {
+  opacity: 0.5;
+  font-size: 14px;
+}
+
+.open-post__members .divider {
+  width: 1px;
+  height: 10px;
+  margin: 0 5px;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.open-post__member-status {
+  color: #ffb0c0;
+}
