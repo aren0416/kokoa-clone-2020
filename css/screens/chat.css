@@ -113,7 +113,7 @@
   align-items: center;
   padding: 5px 25px;
   box-sizing: border-box;
-  transition: all 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out;
 }
 
 .reply svg {
@@ -182,7 +182,7 @@
   opacity: 0;
 }
 
-.reply:focus-within input {
+.reply input:focus {
   width: 95vw;
   transform: translateX(-13%) translateY(-80px);
 }
